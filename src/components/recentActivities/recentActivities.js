@@ -41,11 +41,11 @@ function RecentActivities() {
 
             </div>
             <div className="moreIcon">
-                <div>
-                    <span></span>
+                {['a', 'b', 'c'].map((item, i) => 
+                <div key={i}>
+                    <span style={i !== 0 ? {display: 'none'} : {display: 'inline'}}></span>
                 </div>
-                <div></div>
-                <div></div>
+                )}
             </div>
 
         </div>
