@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     border-right: 1px solid #e7e7e7;
-    width: 8%;
+    width: 5%;
 }
 
 .sideBarMenu {
@@ -14,7 +14,7 @@
     align-items: center;
     height: 100vh;
     gap: 2rem;
-    padding: 4.5rem 1rem 0;
+    padding: 3rem 1rem 0;
     margin: 0;
 }
 
@@ -25,7 +25,11 @@
     border-radius: 50%;
     background: #ffffff;
     color: #cdcbcb;
-    width: 2rem;
-    height: 2rem;
-    box-shadow: 0 2px 1px #b5b1b1c7;
+    width: 2.5rem;
+    height: 2.5rem;
+    box-shadow: 0 1px 1px #b5b1b14d;
+}
+
+.active {
+    color: #5439ed;
 }

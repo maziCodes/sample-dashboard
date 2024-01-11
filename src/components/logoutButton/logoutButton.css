@@ -1,0 +1,14 @@
+
+
+.logout {
+    border: none;
+    color: #eb5018;
+    padding: 10px 20px;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 1px 9px 0px #c6c3c3;
+}
+
+.logout i {
+    padding-right: 0.2rem;
+}

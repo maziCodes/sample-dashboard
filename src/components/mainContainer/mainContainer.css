@@ -1,10 +1,43 @@
 
 .mainContent {
-    background: #f7f7f7;
+    background: #f9f9f9;
     display: flex;
 }
 
 .content {
     width: 92%;
-    padding: 3rem 3rem 0 7rem;
+    padding: 3rem 0 0 8rem;
+}
+
+.mainTitle {
+    margin: 0;
+}
+
+.mainSubTitle {
+    margin-top: 0.5rem;
+    font-size: .8rem;
+}
+
+.moreInfo {
+    margin: 4rem 0 1rem;
+}
+
+.moreInfo h4{
+    margin-bottom: 0;
+}
+
+.moreInfo p {
+    margin-top: 0.5rem;
+    font-size: .7rem;
+}
+
+.dynamicContent {
+    display: flex;
+    gap: 3rem;
+}
+
+.logoutButton {
+    margin: 5rem 5rem 0 0;
+    display: flex;
+    justify-content: end;
 }

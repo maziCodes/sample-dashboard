@@ -1,0 +1,17 @@
+.recentActivities {
+    width: 32%;
+}
+
+.recentActivities h4{
+    margin-bottom: 0;
+}
+
+.recentActivities p {
+    margin-top: 0.5rem;
+    font-size: .7rem;
+}
+
+.activities {
+    padding: 0.5rem 1rem;
+    background: #f2f2f2;
+}

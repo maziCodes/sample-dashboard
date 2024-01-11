@@ -1,10 +1,16 @@
 import './recentActivity.css'
 
 
-function RecentActivity() {
+function RecentActivity({activity}) {
     return (
-        <div>
-            <h4>Recent Activity</h4>
+        <div className='activity'>
+            <img alt='activity' src={activity.image} />
+            <div>
+                <span>{activity.title}</span>
+                <span>{activity.description}</span>
+            </div>
+
+            <button>{activity.buttonText}</button>
         </div>
     );
 }

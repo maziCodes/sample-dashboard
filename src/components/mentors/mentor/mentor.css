@@ -1,0 +1,61 @@
+
+.mentorImage {
+    width: 32%;
+    height: 55vh;
+}
+
+.mentorImage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3.5%;
+}
+
+.mentorDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.location {
+    font-size: 0.7rem;
+}
+
+.interest {
+    font-size: 0.7rem;
+    margin: 1.5rem 0;
+}
+
+.mentorDetails span i {
+    padding-right: 0.5rem;
+}
+
+.mentorDetails div {
+    display: flex;
+    gap: 2rem;
+}
+
+.mentorDetails div .connect, .mentorDetails div .ignore {
+    color: #5439ed;
+    padding: 8px 20px;
+    border-radius: 16px;
+    border: 1px solid #5439ed;
+    background: #ffffff;
+    font-weight: bold;
+}
+
+.mentorDetails div .ignore {
+    border: none;
+    background: transparent;
+}
+
+.imgHeightShort {
+    height: 62% !important;
+}
+
+.hideMentorDetails {
+    display: none !important;
+}
