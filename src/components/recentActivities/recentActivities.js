@@ -40,6 +40,13 @@ function RecentActivities() {
                 )}
 
             </div>
+            <div className="moreIcon">
+                <div>
+                    <span></span>
+                </div>
+                <div></div>
+                <div></div>
+            </div>
 
         </div>
     );
