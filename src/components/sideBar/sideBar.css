@@ -1,0 +1,31 @@
+
+.sideBar {
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #e7e7e7;
+    width: 8%;
+}
+
+.sideBarMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    list-style: none;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+    padding: 4.5rem 1rem 0;
+    margin: 0;
+}
+
+.sideBarMenu li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #cdcbcb;
+    width: 2rem;
+    height: 2rem;
+    box-shadow: 0 2px 1px #b5b1b1c7;
+}

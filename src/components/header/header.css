@@ -1,0 +1,45 @@
+
+
+.headerContrainer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: #5439ed;
+    height: 5rem;
+}
+
+.headerAction {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 2rem;
+    color: #ffffff;
+}
+
+.notice {
+    display: flex;
+}
+
+.notice i{
+    font-size: 1.3rem;
+}
+
+.notice .counter {
+    position: relative;
+    top: -.1rem;
+    right: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eb1818;
+    color: #ffffff;
+    font-size: .5rem;
+    border-radius: 50%;
+    width: .8rem;
+    height: .8rem;
+}
+
+.userAvatar img {
+    width: 3.5rem;
+    border-radius: 50%;
+}

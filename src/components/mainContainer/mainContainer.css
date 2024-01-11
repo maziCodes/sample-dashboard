@@ -1,0 +1,10 @@
+
+.mainContent {
+    background: #f7f7f7;
+    display: flex;
+}
+
+.content {
+    width: 92%;
+    padding: 3rem 3rem 0 7rem;
+}
